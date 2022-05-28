@@ -1,5 +1,5 @@
 {
-  "name": "weslie-quest",
+  "name": "weslie-quest-monorepo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -32,10 +32,19 @@
       "not dead",
       "not op_mini all"
     ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "development": ["last 1 firefox version"]
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aljedaxi/weslie-quest.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "daxi <alje@daxi.ml>",
+  "bugs": {
+    "url": "https://github.com/aljedaxi/weslie-quest/issues"
+  },
+  "homepage": "https://github.com/aljedaxi/weslie-quest#readme"
 }
