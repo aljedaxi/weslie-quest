@@ -1,4 +1,5 @@
 import Battle from './battle'
+import Engine from 'weslie-quest-engine'
 
 const App = props => {
   return (

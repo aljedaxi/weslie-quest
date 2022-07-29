@@ -6,6 +6,7 @@
     "dev": "PUBLIC_URL=/ npm run dev --workspace=game"
   },
   "workspaces": [
-    "game"
+    "game",
+    "packages/*"
   ]
 }
